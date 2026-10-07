@@ -1,0 +1,25 @@
+# From Cells to Clusters — ISCB-LATAM SolBio SPBBC 2026
+# Versions tested on Python 3.12 (October 2026). Google Colab users do NOT need this file:
+# each notebook installs what it needs in its first cell.
+#
+#   python -m venv sc-env && source sc-env/bin/activate     (Windows: sc-env\Scripts\activate)
+#   pip install -r requirements.txt
+#   jupyter lab
+
+scanpy[leiden,scrublet]==1.12.4
+anndata==0.13.4
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+leidenalg==0.12.0
+igraph==1.0.0
+scikit-image==0.26.0
+decoupler==2.2.0
+celltypist==1.7.1
+harmonypy==2.1.0
+bbknn==1.6.0
+pydeseq2==0.5.4
+jupyterlab

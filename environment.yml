@@ -1,0 +1,10 @@
+# conda/mamba alternative to requirements.txt
+#   mamba env create -f environment.yml && mamba activate sc-tutorial && jupyter lab
+name: sc-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - -r requirements.txt

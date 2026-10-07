@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use or adapt these materials, please cite them as below."
+type: software
+title: "From Cells to Clusters: An Introduction to Single-Cell RNA-seq Analysis in Python"
+abstract: >-
+  Bilingual (English/Spanish) hands-on tutorial materials for ISCB-LATAM SolBio SPBBC 2026
+  (Lima, Peru): Google Colab notebooks and slides covering Cell Ranger outputs, quality control,
+  clustering, cell type annotation, visualization, differential expression, enrichment,
+  integration and pseudobulk analysis with Scanpy and the scverse ecosystem.
+authors:
+  - family-names: "Villalba Silva"
+    given-names: "Gerda Cristal"
+    orcid: "https://orcid.org/0000-0003-0283-7982"
+    affiliation: "UT Health San Antonio"
+repository-code: "https://github.com/Kur1sutaru/ISMB-LATAM"
+license: MIT
+date-released: "2026-10-09"
+version: "1.0.0"
+keywords:
+  - single-cell RNA-seq
+  - scanpy
+  - tutorial
+  - bioinformatics education
+  - Latin America
